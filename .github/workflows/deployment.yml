@@ -22,4 +22,4 @@ jobs:
         username: root
         key: ${{ secrets.DEPLOY_KEY }}
         command_timeout: 10m
-        script: git -C /root/reddcoin.com pull && docker-compose up -d --build --force-recreate www3_reddcoin_com
+        script: git -C /root/www-data/www3.reddcoin.com pull && docker-compose up -d --build --force-recreate www3_reddcoin_com
