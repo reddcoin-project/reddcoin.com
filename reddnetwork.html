@@ -30,86 +30,88 @@
 		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	</head> 
 	<body>
-
-	<!-- Navigation Mobile type 1 -->
-	<a href="#" class="open_menu bg-light radius_full"><i class="fas fa-bars lh-40"></i></a>
-	
-	<div class="navigation_mobile bg-dark type1">
-		<a href="#" class="close_menu color-white"><i class="fas fa-times"></i></a>
-		<div class="px-40 pt-60 pb-60 inner">
-			<div class="logo color-white mb-30"><a href="index.html"><img class="h-60" src="i/R-Logo-CLR-BLK.svg" alt="Redd"></a></div>
-			<div><a href="#" class="f-heading f-22 link color-white mb-20">Home</a></div>
-			<div><a href="#" class="f-heading f-22 link color-white mb-20">Tour</a></div>
-			<div><a href="#" class="f-heading f-22 link color-white mb-20">Mobile Apps</a></div>
-			<div><a href="#" class="f-heading f-22 link color-white mb-20">Pricing</a></div>
-			<div><a href="#" class="f-heading f-22 link color-white mb-20">Development</a></div>
-			<div><a href="#" class="link color-white op-3 mb-15">Help</a></div>
-			<div><a href="#" class="link color-white op-3 mb-15">F.A.Q.</a></div>
-			<div><a href="#" class="link color-white op-3 mb-15">Support</a></div>
-			<div><a href="#" class="link color-white op-3 mb-15">About Us</a></div>
-			<div><a href="#" class="link color-white op-3 mb-15">Blog</a></div>
-			<div><a href="#" class="link color-white op-3 mb-15">Careers</a></div>
-			<div class="socials mt-40">
-				<a href="#" target="_blank" class="link color-white f-18 mr-20"><i class="fab fa-twitter"></i></a>
-				<a href="#" target="_blank" class="link color-white f-18 mr-20"><i class="fab fa-facebook"></i></a>
-				<a href="#" target="_blank" class="link color-white f-18 mr-20"><i class="fab fa-youtube"></i></a>
-				<a href="#" target="_blank" class="link color-white f-18 mr-20"><i class="fab fa-medium"></i></a>
-			</div>
-			<div class="mt-50 f-14 light color-white op-3 copy">
-				Copyright © 2021 Reddcoin Solutions Ltd. All rights reserved.
-			</div>
-		</div>
-	</div>
-	
-	<!-- Header 5 -->
-	<header class="pt-160 pb-60 bg-light header_5">
-		<nav class="pt-10 pb-10 bg-light lh-40 text-center fixed-top navigation_4">
-			<div class="container px-xl-0">
-				<div class="row align-items-center">
-					<div class="col-lg-3 text-lg-left" data-aos="fade-down" data-aos-delay="250">
-						<a href="index.html" class="link logo color-main"><img class="h-60" src="i/R-Logo-CLR-BLK.svg" alt="Redd"></a>
-					</div>
-					<div class="col-lg-6 col-md-8 text-md-left text-lg-center" data-aos="fade-down" data-aos-delay="0">
-						<div class="d-inline-block px-15 dropdown">
-							<a href="#" class="link color-main dropdown-toggle" id="navigation_2_dropdown_1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Products
-							</a>
-							<div class="bg-light dropdown-menu" aria-labelledby="navigation_2_dropdown_1">
-								<div><a href="reddbot.html" class="dropdown-item color-main">ReddBot</a></div>
-								<div><a href="reddcoin.html" class="dropdown-item color-main">ReddCoin</a></div>
-								<div><a href="reddnetwork.html" class="dropdown-item color-main">ReddNetwork</a></div>
-								<div><a href="reddwallet.html" class="dropdown-item color-main">ReddWallet</a></div>
-								<div><a href="reddshare.html" class="dropdown-item color-main">ReddShare</a></div>
-							</div>					
+		<!-- Navigation Mobile type 1 -->
+		<a href="index.html" class="link logo color-main"><img class="h-60 mt-15 ml-15" src="i/R-Logo-CLR-BLK.svg" alt="Redd"></a>
+		<a href="#" class="open_menu bg-light radius_full right"><i class="fas fa-bars lh-40"></i></a>	
+		<div class="navigation_mobile bg-dark type1">
+			<a href="#" class="close_menu color-white"><i class="fas fa-times"></i></a>
+			<div class="px-40 pt-60 pb-60 inner">
+				<div class="logo color-white mb-30"><a href="index.html"><img class="h-60" src="i/R-Logo-CLR-WHT.svg" alt="Redd"></a></div>
+				<div><a href="index.html" class="f-heading f-22 link color-white mb-20">Home</a></div>
+				<div id="accordion">
+					<div class="card border-0 bg-transparent">
+						<div class="f-heading f-22 link color-white mb-20" data-toggle="collapse" data-target="#collapseOne">
+						Products
 						</div>
-						
-						<a href="#" class="link color-main mx-15">Statistics</a>
-						
-						<div class="d-inline-block px-15 dropdown">
-							<a href="#" class="link color-main dropdown-toggle" id="navigation_2_dropdown_2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								About
-							</a>
-							<div class="bg-light dropdown-menu" aria-labelledby="navigation_2_dropdown_2">
-								<div><a href="#" class="dropdown-item color-main">Project Redd</a></div>
-								<div><a href="#" class="dropdown-item color-main">The ReddMap</a></div>
-								<div><a href="#" class="dropdown-item color-main">Funding</a></div>
-							</div>					
+						<div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="card-body">
+							<!-- Dropdown menu links -->
+							<a href="reddbot.html" class="dropdown-item f-heading f-18 link color-white bg-transparent mb-20">ReddBot</a>
+							<a href="reddcoin.html" class="dropdown-item f-heading f-18 link color-white bg-transparent mb-20">ReddCoin</a>
+							<a href="reddnetwork.html" class="dropdown-item f-heading f-18 link color-white bg-transparent mb-20">ReddNetwork</a>
+							<a href="reddshare.html" class="dropdown-item f-heading f-18 link color-white bg-transparent mb-20">ReddShare</a>
+							<a href="reddwallet.html" class="dropdown-item f-heading f-18 link color-white bg-transparent mb-20">ReddWallet</a>
+							</div>
 						</div>
-						
-						<a href="#" class="link color-main mx-15">Developers</a>
-						<a href="#" class="link color-main mx-15">Contact</a>
-					</div>
-					<div class="mt-10 mt-md-0 col-lg-3 col-md-4 text-md-right socials" data-aos="fade-down" data-aos-delay="250">
-						<a href="#" class="link color-heading mr-5 f-18"><i class="fab fa-twitter"></i></a>
-						<a href="#" class="link color-heading mx-7 f-18"><i class="fab fa-telegram-plane"></i></a>
-						<a href="#" class="link color-heading mx-7 f-18"><i class="fab fa-medium-m"></i></a>
-						<a href="#" class="btn ml-5 sm color-main border-gray f-16">Buy ReddCoin</a>
 					</div>
 				</div>
+				<div><a href="about.html" class="f-heading f-22 link color-white mb-20">About</a></div>
+				<div><a href="developers.html" class="f-heading f-22 link color-white mb-20">Developers</a></div>
+				<div><a href="https://medium.com/projectredd" class="f-heading f-22 link color-white mb-20">Blog</a></div>
+				<div><a href="contact.html" class="f-heading f-22 link color-white mb-20">Contact</a></div>
+				<div><a href="https://redd.help" class="link color-white op-3 mb-15">Support</a></div>
+				<div><a href="https://redd.love/roadmap/" class="link color-white op-3 mb-15">ReddMap</a></div>
+				<div><a href="https://wiki.reddcoin.com/Exchanges" class="link color-white op-3 mb-15">Exchanges</a></div>
+				<div><a href="https://live.reddcoin.com/" class="link color-white op-3 mb-15">Explorer</a></div>
+				<div><a href="https://www.stakingrewards.com/earn/reddcoin" class="link color-white op-3 mb-15">Staking</a></div>
+				<div><a href="https://redd.love/funding/" class="link color-white op-3 mb-15">Funding</a></div>
+				<div class="socials mt-40">
+					<a href="https://twitter.com/reddcoin" target="_blank" class="link color-white f-18 mr-20"><i class="fab fa-twitter"></i></a>
+					<a href="https://t.me/ReddcoinOfficial" target="_blank" class="link color-white f-18 mr-20"><i class="fab fa-telegram"></i></a>
+					<a href="https://medium.com/projectredd" target="_blank" class="link color-white f-18 mr-20"><i class="fab fa-medium"></i></a>
+					<a href="https://www.youtube.com/ReddProject" target="_blank" class="link color-white f-18 mr-20"><i class="fab fa-youtube"></i></a>
+				</div>
+				<div class="mt-50 f-14 light color-white op-3 copy">
+					Copyright © 2021 Reddcoin Solutions Ltd. All rights reserved.
+				</div>
 			</div>
-		</nav>
-	</header>
-		
+		</div>
+	
+		<!-- Header 5 -->
+		<header class="pt-40 pb-60 bg-light header_5">
+			<nav class="pt-10 pb-10 bg-light lh-40 text-center fixed-top navigation_4">
+				<div class="container px-xl-0">
+					<div class="row align-items-center">
+						<div class="col-lg-3 text-lg-left" data-aos="fade-down" data-aos-delay="250">
+							<a href="index.html" class="link logo color-main"><img class="h-60" src="i/R-Logo-CLR-BLK.svg" alt="Redd"></a>
+						</div>
+						<div class="col-lg-6 col-md-8 text-md-left text-lg-center" data-aos="fade-down" data-aos-delay="0">
+							<div class="d-inline-block px-15 dropdown">
+								<a href="#" class="link color-main dropdown-toggle" id="navigation_2_dropdown_1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+								<div class="bg-light dropdown-menu" aria-labelledby="navigation_2_dropdown_1">
+									<div><a href="reddbot.html" class="dropdown-item color-main">ReddBot</a></div>
+									<div><a href="reddcoin.html" class="dropdown-item color-main">ReddCoin</a></div>
+									<div><a href="reddnetwork.html" class="dropdown-item color-main">ReddNetwork</a></div>
+									<div><a href="reddshare.html" class="dropdown-item color-main">ReddShare</a></div>
+									<div><a href="reddwallet.html" class="dropdown-item color-main">ReddWallet</a></div>
+								</div>					
+							</div>
+						
+							<a href="about.html" class="link color-main mx-15">About</a>
+							<a href="developers.html" class="link color-main mx-15">Developers</a>
+							<a href="https://medium.com/projectredd" class="link color-main mx-15">Blog</a>
+							<a href="contact.html" class="link color-main mx-15">Contact</a>
+						</div>
+						<div class="mt-10 mt-md-0 col-lg-3 col-md-4 text-md-right socials" data-aos="fade-down" data-aos-delay="250">
+							<a href="https://twitter.com/reddcoin" class="link color-heading mr-5 f-18"><i class="fab fa-twitter"></i></a>
+							<a href="https://t.me/ReddcoinOfficial" class="link color-heading mx-7 f-18"><i class="fab fa-telegram-plane"></i></a>
+							<a href="https://medium.com/projectredd" class="link color-heading mx-7 f-18"><i class="fab fa-medium-m"></i></a>
+							<a href="#" class="btn ml-5 sm color-main border-gray f-16">Buy ReddCoin</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
 		<!-- Application 19 -->
 		<section class="pt-50 pb-100 bg-light application_19">
 			<div class="container px-xl-0 text-center">
@@ -124,440 +126,436 @@
 			</div>
 			<img src="i/reddnetwork-blockchain-1.jpg" srcset="i/reddnetwork-blockchain-1@2x.jpg 2x" alt="" class="img-fluid w-full" data-aos="fade-down" data-aos-delay="350">
 		</section>
-		
 		<!-- Application 21 -->
-			<section class="pt-100 pb-100 bg-light application_21">
-				<div class="container px-xl-0">
-					<div class="mb-md-5 row justify-content-between align-items-center align-items-xl-start">
-						<div class="col-md-7 col-xl-5">
-							<div class="pb-15 color-heading f-14 bold text-uppercase sp-20" data-aos="fade-down" data-aos-delay="0">
-									The ReddNetwork
-							</div>
-							<h2 class="text-adaptive small" data-aos="fade-down" data-aos-delay="0">
-								A Self-Sustainable Network that Empowers Growth and Adoption
-							</h2>
+		<section class="pt-100 pb-100 bg-light application_21">
+			<div class="container px-xl-0">
+				<div class="mb-md-5 row justify-content-between align-items-center align-items-xl-start">
+					<div class="col-md-7 col-xl-5">
+						<div class="pb-15 color-heading f-14 bold text-uppercase sp-20" data-aos="fade-down" data-aos-delay="0">
+								The ReddNetwork
 						</div>
-						<div class="col-md-5 col-xl-7">
-							<img src="i/reddnetwork-growth-1.jpg" srcset="i/reddnetwork-growth-1@2x.jpg 2x" alt="" class="img-fluid mt-30 mt-md-0" data-aos="fade-down" data-aos-delay="250">
+						<h2 class="text-adaptive small" data-aos="fade-down" data-aos-delay="0">
+							A Self-Sustainable Network that Empowers Growth and Adoption
+						</h2>
+					</div>
+					<div class="col-md-5 col-xl-7">
+						<img src="i/reddnetwork-growth-1.jpg" srcset="i/reddnetwork-growth-1@2x.jpg 2x" alt="" class="img-fluid mt-30 mt-md-0" data-aos="fade-down" data-aos-delay="250">
+					</div>
+				</div>
+				<div class="mt-20 mt-md-0 row">
+					<div class="mt-30 col-md-4 no-gutters">
+						<div class="pb-10 color-heading f-14 bold text-uppercase sp-20" data-aos="fade-down" data-aos-delay="250">
+							01
+						</div>
+						<div class="pb-15 color-main f-32 bold" data-aos="fade-down" data-aos-delay="250">
+							Open Source
+						</div>
+						<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive" data-aos="fade-down" data-aos-delay="250">
+							Anyone can build products and services that utilize ReddCoin and its blockchain network.
 						</div>
 					</div>
-					<div class="mt-20 mt-md-0 row">
-						<div class="mt-30 col-md-4 no-gutters">
-							<div class="pb-10 color-heading f-14 bold text-uppercase sp-20" data-aos="fade-down" data-aos-delay="250">
-								01
-							</div>
-							<div class="pb-15 color-main f-32 bold" data-aos="fade-down" data-aos-delay="250">
-								Open Source
-							</div>
-							<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive" data-aos="fade-down" data-aos-delay="250">
-								Anyone can build products and services that utilize ReddCoin and its blockchain network.
-							</div>
+					<div class="mt-30 col-md-4 no-gutters">
+						<div class="pb-10 color-heading f-14 bold text-uppercase sp-20" data-aos="fade-down" data-aos-delay="300">
+							02
 						</div>
-						<div class="mt-30 col-md-4 no-gutters">
-							<div class="pb-10 color-heading f-14 bold text-uppercase sp-20" data-aos="fade-down" data-aos-delay="300">
-								02
-							</div>
-							<div class="pb-15 color-main f-32 bold" data-aos="fade-down" data-aos-delay="300">
-								Decentralized
-							</div>
-							<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive" data-aos="fade-down" data-aos-delay="300">
-								The ReddNetwork is a peer-to-peer run network with no central server or place of attack.
-							</div>
+						<div class="pb-15 color-main f-32 bold" data-aos="fade-down" data-aos-delay="300">
+							Decentralized
 						</div>
-						<div class="mt-30 col-md-4 no-gutters">
-							<div class="pb-10 color-heading f-14 bold text-uppercase sp-20" data-aos="fade-down" data-aos-delay="350">
-								03
-							</div>
-							<div class="pb-15 color-main f-32 bold" data-aos="fade-down" data-aos-delay="350">
-								Self-Funded
-							</div>
-							<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive" data-aos="fade-down" data-aos-delay="350">
-								The network generates new ReddCoins to fund future development and reward users.
-							</div>
+						<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive" data-aos="fade-down" data-aos-delay="300">
+							The ReddNetwork is a peer-to-peer run network with no central server or place of attack.
+						</div>
+					</div>
+					<div class="mt-30 col-md-4 no-gutters">
+						<div class="pb-10 color-heading f-14 bold text-uppercase sp-20" data-aos="fade-down" data-aos-delay="350">
+							03
+						</div>
+						<div class="pb-15 color-main f-32 bold" data-aos="fade-down" data-aos-delay="350">
+							Self-Funded
+						</div>
+						<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive" data-aos="fade-down" data-aos-delay="350">
+							The network generates new ReddCoins to fund future development and reward users.
 						</div>
 					</div>
 				</div>
-			</section>
-			<!-- Application 12 -->
-				<section class="pt-100 pb-100 bg-light application_12">
+			</div>
+		</section>
+		<!-- Application 12 -->
+		<section class="pt-100 pb-100 bg-light application_12">
+			<div class="container px-xl-0">
+				<div class="row justify-content-center align-items-center">
+					<div class="mb-30 mb-md-0 col-md-5 col-lg-6 d-flex justify-content-start justify-content-md-center">
+						<img src="i/reddnetwork-blockchain-2.jpg" srcset="i/reddnetwork-blockchain-2@2x.jpg 2x" alt="" class="img-fluid" data-aos="fade-down" data-aos-delay="200">
+					</div>
+					<div class="mt-50 col-md-7 col-lg-6 no-gutters">
+						<div class="pb-15 color-heading f-14 bold text-uppercase sp-20" data-aos="fade-down" data-aos-delay="0">
+							Proof-Of-Stake-Velocity (POSV)
+						</div>
+						<h3 class="pb-25" data-aos="fade-down" data-aos-delay="0">
+							Encourages Ownership and Activity
+						</h3>
+						<div class="col-lg-10 col-xl-11 color-heading f-18 medium text-adaptive" data-aos="fade-down" data-aos-delay="0">
+							The ReddNetwork utilizes an innovative protocol called Proof of Stake Velocity (PoSV) which encourages users to hold (or “stake”) their ReddCoin inside a ReddWallet to help operate the network and also reward them for spending the coins as a medium of exchange. 
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Application 9 -->
+		<section class="pt-100 pb-100 bg-light application_9">
+			<div class="container px-xl-0">
+				<div class="row justify-content-center justify-content-md-between align-items-center">
+					<div class="col-12 col-md-5 col-lg-5 no-gutters">
+						<h3 class="mb-15 col-12 col-xl-9" data-aos="fade-down" data-aos-delay="0">
+							Designed to Help the World
+						</h3>
+						<div class="col-12 col-lg-9 col-xl-10 pb-40 color-heading f-16 text-adaptive" data-aos="fade-down" data-aos-delay="150">
+							A percentage of the ReddCoins automatically generated by the network is used to fund the Redd charity program which is used to make small and large impacts on mankind as the project continues grow and gain adoption.
+						</div>
+					</div>
+					<img src="i/reddnetwork-world-1.png" srcset="i/reddnetwork-world-1@2x.png 2x" alt="" class="mt-15 mt-md-0 col-12 col-md-7 col-lg-7 img-fluid" data-aos="fade-down" data-aos-delay="500">
+				</div>
+			</div>
+		</section>
+		<!-- Feature 9 -->
+		<section class="pt-105 pb-65 bg-light feature_9">
+			<div class="container px-xl-0">
+				<div class="row justify-content-between">
+					<div class="col-xl-7">
+						<h2 class="mb-25 small" data-aos="fade-down" data-aos-delay="0">
+							Key Highlights
+						</h2>
+						<div class="color-heading f-22 op-7 text-adaptive" data-aos="fade-down" data-aos-delay="250">
+							Below is a brief summary of the ReddNetwork and its benefits that makes it a trusted and self-sustainable network.
+						</div>
+					</div>
+				</div>
+				<div class="mt-45 mb-70 hr bg-gray h-2" data-aos="fade-down" data-aos-delay="250">
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="300">
+						<div class="mb-20 f-14 semibold text-uppercase sp-15 title">Secure &amp; Battle Tested</div>
+						<div class="color-heading op-7 text-adaptive">The ReddNetwork has been operating successfully without incident or security breach since it was created back in 2014.</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="550">
+						<div class="mb-20 f-14 semibold text-uppercase sp-15 title">60s Transaction Times</div>
+						<div class="color-heading op-7 text-adaptive">Enjoy fast and secure transactions as all transactions are broadcasted immediately with up to 60 second confirmation times.</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="800">
+						<div class="mb-20 f-14 semibold text-uppercase sp-15 title">10x Faster Than Bitcoin</div>
+						<div class="color-heading op-7 text-adaptive">If you’ve used Bitcoin you know it can take up to several hours to complete a transaction. The ReddCoin network is 10 times faster than Bitcoin.</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="1050">
+						<div class="mb-20 f-14 semibold text-uppercase sp-15 title">Run by Volunteers</div>
+						<div class="color-heading op-7 text-adaptive">Redd is one of the few projects in this space that was completely built by people who devoted their free time to make this project a reality.</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="350">
+						<div class="mb-20 f-14 semibold text-uppercase sp-15 title">Self-Funded Network</div>
+						<div class="color-heading op-7 text-adaptive">New ReddCoins generated by the network are used to fund future development, reward users and support social initiatives.</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="600">
+						<div class="mb-20 f-14 semibold text-uppercase sp-15 title">Low Transaction Fees</div>
+						<div class="color-heading op-7 text-adaptive">Experience $0 transaction fees using ReddCoin (RDD) unless you want to pay an optional low-fee for priority sending functionality.</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="850">
+						<div class="mb-20 f-14 semibold text-uppercase sp-15 title">Repatriation Fund</div>
+						<div class="color-heading op-7 text-adaptive">A portion of ReddCoins (RDD) generated by the network are be used to help Reddheads who have verifiable lost their funds.</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="1100">
+						<div class="mb-20 f-14 semibold text-uppercase sp-15 title">Earn Staking Rewards</div>
+						<div class="color-heading op-7 text-adaptive">Support the network by leaving your ReddWallet open on your computer to earn up to 25% annual returns on your ReddCoin holdings.</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Feature 31 -->
+		<section class="bg-dark color-white text-center text-md-left color-filter-dark-4 feature_31" data-bg-src="i/reddnetwork-walletback-1@2x.jpg" data-bg-src-2x="i/reddnetwork-walletback-1@2x.jpg">
+			<div class="">
+				<div class="pt-100 pb-100">
 					<div class="container px-xl-0">
-						<div class="row justify-content-center align-items-center">
-							<div class="mb-30 mb-md-0 col-md-5 col-lg-6 d-flex justify-content-start justify-content-md-center">
-								<img src="i/reddnetwork-blockchain-2.jpg" srcset="i/reddnetwork-blockchain-2@2x.jpg 2x" alt="" class="img-fluid" data-aos="fade-down" data-aos-delay="200">
+						<div class="row">
+							<div class="col-xl-4 col-lg-3 col-md-2">
+								<img src="i/reddwallet_img.png" srcset="i/reddwallet_img@2x.png 2x" alt="" class="absolute h-full img">
 							</div>
-							<div class="mt-50 col-md-7 col-lg-6 no-gutters">
-								<div class="pb-15 color-heading f-14 bold text-uppercase sp-20" data-aos="fade-down" data-aos-delay="0">
-									Proof-Of-Stake-Velocity (POSV)
+							<div class="col-xl-7 col-lg-8 col-md-9 pt-60 pb-60 right_side">
+								<h2 class="mb-20 small">
+									Help Support the Network
+								</h2>
+								<div class="mb-60 f-22 text-adaptive">
+									Download the ReddWallet for desktop, deposit ReddCoin and start staking. While the program is running it will help verify and process transactions on the network.
 								</div>
-								<h3 class="pb-25" data-aos="fade-down" data-aos-delay="0">
-									Encourages Ownership and Activity
-								</h3>
-								<div class="col-lg-10 col-xl-11 color-heading f-18 medium text-adaptive" data-aos="fade-down" data-aos-delay="0">
-									The ReddNetwork utilizes an innovative protocol called Proof of Stake Velocity (PoSV) which encourages users to hold (or “stake”) their ReddCoin inside a ReddWallet to help operate the network and also reward them for spending the coins as a medium of exchange. 
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- Application 9 -->
-					<section class="pt-100 pb-100 bg-light application_9">
-						<div class="container px-xl-0">
-							<div class="row justify-content-center justify-content-md-between align-items-center">
-								<div class="col-12 col-md-5 col-lg-5 no-gutters">
-									<h3 class="mb-15 col-12 col-xl-9" data-aos="fade-down" data-aos-delay="0">
-										Designed to Help the World
-									</h3>
-									<div class="col-12 col-lg-9 col-xl-10 pb-40 color-heading f-16 text-adaptive" data-aos="fade-down" data-aos-delay="150">
-										A percentage of the ReddCoins automatically generated by the network is used to fund the Redd charity program which is used to make small and large impacts on mankind as the project continues grow and gain adoption.
-									</div>
-								</div>
-								<img src="i/reddnetwork-world-1.png" srcset="i/reddnetwork-world-1@2x.png 2x" alt="" class="mt-15 mt-md-0 col-12 col-md-7 col-lg-7 img-fluid" data-aos="fade-down" data-aos-delay="500">
-							</div>
-						</div>
-					</section>
-					<!-- Feature 9 -->
-						<section class="pt-105 pb-65 bg-light feature_9">
-							<div class="container px-xl-0">
-								<div class="row justify-content-between">
-									<div class="col-xl-7">
-										<h2 class="mb-25 small" data-aos="fade-down" data-aos-delay="0">
-											Key Highlights
-										</h2>
-										<div class="color-heading f-22 op-7 text-adaptive" data-aos="fade-down" data-aos-delay="250">
-											Below is a brief summary of the ReddNetwork and its benefits that makes it a trusted and self-sustainable network.
+								<div class="row justify-content-center">
+									<div class="mb-40 mb-md-0 col-md-6 col-sm-8">
+										<div class="mb-15 f-14 semibold text-uppercase sp-10 title">
+											<i class="fas fa-check mr-15"></i>
+											<span>Store, Send &amp; Receive</span>
 										</div>
+										<div class="text-adaptive">Use ReddWallet to manage and send<br>value on your desktop computer.</div>
 									</div>
-								</div>
-								<div class="mt-45 mb-70 hr bg-gray h-2" data-aos="fade-down" data-aos-delay="250">
-								</div>
-								<div class="row">
-									<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="300">
-										<div class="mb-20 f-14 semibold text-uppercase sp-15 title">Secure &amp; Battle Tested</div>
-										<div class="color-heading op-7 text-adaptive">The ReddNetwork has been operating successfully without incident or security breach since it was created back in 2014.</div>
-									</div>
-									<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="550">
-										<div class="mb-20 f-14 semibold text-uppercase sp-15 title">60s Transaction Times</div>
-										<div class="color-heading op-7 text-adaptive">Enjoy fast and secure transactions as all transactions are broadcasted immediately with up to 60 second confirmation times.</div>
-									</div>
-									<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="800">
-										<div class="mb-20 f-14 semibold text-uppercase sp-15 title">10x Faster Than Bitcoin</div>
-										<div class="color-heading op-7 text-adaptive">If you’ve used Bitcoin you know it can take up to several hours to complete a transaction. The ReddCoin network is 10 times faster than Bitcoin.</div>
-									</div>
-									<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="1050">
-										<div class="mb-20 f-14 semibold text-uppercase sp-15 title">Run by Volunteers</div>
-										<div class="color-heading op-7 text-adaptive">Redd is one of the few projects in this space that was completely built by people who devoted their free time to make this project a reality.</div>
-									</div>
-									<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="350">
-										<div class="mb-20 f-14 semibold text-uppercase sp-15 title">Self-Funded Network</div>
-										<div class="color-heading op-7 text-adaptive">New ReddCoins generated by the network are used to fund future development, reward users and support social initiatives.</div>
-									</div>
-									<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="600">
-										<div class="mb-20 f-14 semibold text-uppercase sp-15 title">Low Transaction Fees</div>
-										<div class="color-heading op-7 text-adaptive">Experience $0 transaction fees using ReddCoin (RDD) unless you want to pay an optional low-fee for priority sending functionality.</div>
-									</div>
-									<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="850">
-										<div class="mb-20 f-14 semibold text-uppercase sp-15 title">Repatriation Fund</div>
-										<div class="color-heading op-7 text-adaptive">A portion of ReddCoins (RDD) generated by the network are be used to help Reddheads who have verifiable lost their funds.</div>
-									</div>
-									<div class="col-lg-3 col-md-6 mb-40" data-aos="fade-down" data-aos-delay="1100">
-										<div class="mb-20 f-14 semibold text-uppercase sp-15 title">Earn Staking Rewards</div>
-										<div class="color-heading op-7 text-adaptive">Support the network by leaving your ReddWallet open on your computer to earn up to 25% annual returns on your ReddCoin holdings.</div>
-									</div>
-								</div>
-							</div>
-						</section>
-						<!-- Feature 31 -->
-							<section class="bg-dark color-white text-center text-md-left color-filter-dark-4 feature_31" data-bg-src="i/reddnetwork-walletback-1@2x.jpg" data-bg-src-2x="i/reddnetwork-walletback-1@2x.jpg">
-								<div class="">
-									<div class="pt-100 pb-100">
-										<div class="container px-xl-0">
-											<div class="row">
-												<div class="col-xl-4 col-lg-3 col-md-2">
-													<img src="i/reddwallet_img.png" srcset="i/reddwallet_img@2x.png 2x" alt="" class="absolute h-full img">
-												</div>
-												<div class="col-xl-7 col-lg-8 col-md-9 pt-60 pb-60 right_side">
-													<h2 class="mb-20 small">
-														Help Support the Network
-													</h2>
-													<div class="mb-60 f-22 text-adaptive">
-														Download the ReddWallet for desktop, deposit ReddCoin and start staking. While the program is running it will help verify and process transactions on the network.
-													</div>
-													<div class="row justify-content-center">
-														<div class="mb-40 mb-md-0 col-md-6 col-sm-8">
-															<div class="mb-15 f-14 semibold text-uppercase sp-10 title">
-																<i class="fas fa-check mr-15"></i>
-																<span>Store, Send &amp; Receive</span>
-															</div>
-															<div class="text-adaptive">Use ReddWallet to manage and send<br>value on your desktop computer.</div>
-														</div>
-														<div class="mb-40 mb-md-0 col-md-6 col-sm-8">
-															<div class="mb-15 f-14 semibold text-uppercase sp-10 title">
-																<i class="fas fa-check mr-15"></i>
-																<span>Stake ReddCoins (RDD)</span>
-															</div>
-															<div class="text-adaptive">The wallet is also used to stake ReddCoin<br>and earn up to 25% in annual returns.</div>
-														</div>
-													</div>
-												</div>
-											</div>
+									<div class="mb-40 mb-md-0 col-md-6 col-sm-8">
+										<div class="mb-15 f-14 semibold text-uppercase sp-10 title">
+											<i class="fas fa-check mr-15"></i>
+											<span>Stake ReddCoins (RDD)</span>
 										</div>
+										<div class="text-adaptive">The wallet is also used to stake ReddCoin<br>and earn up to 25% in annual returns.</div>
 									</div>
-									
 								</div>
-							</section>
-							
-				<!-- Call to action 17 -->
-	<section class="pt-105 pb-95 bg-light text-center call_to_action_17">
-		<div class="container px-xl-0">
-			<h2 class="mb-30 small" data-aos="fade-down" data-aos-delay="0">
-				Follow Us
-			</h2>
-			<div class="f-48 buttons" data-aos="fade-down" data-aos-delay="250">
-				<a href="#" class="w-50 link color-main mx-20 mb-20 mb-md-0" target="_blank">
-					<i class="fab fa-facebook-square">
-					</i>
-				</a>
-				<a href="#" class="w-50 link color-main mx-20 mb-20 mb-md-0" target="_blank">
-					<i class="fab fa-twitter">
-					</i>
-				</a>
-				<a href="#" class="w-50 link color-main mx-20 mb-20 mb-md-0" target="_blank">
-					<i class="fab fa-youtube">
-					</i>
-				</a>
-				<a href="#" class="w-50 link color-main mx-20 mb-20 mb-md-0" target="_blank">
-					<i class="fab fa-telegram-plane">
-					</i>
-				</a>
-				<a href="#" class="w-50 link color-main mx-20 mb-20 mb-md-0" target="_blank">
-					<i class="fab fa-reddit">
-					</i>
-				</a>
-				<a href="#" class="w-50 link color-main mx-20 mb-20 mb-md-0" target="_blank">
-					<i class="fab fa-discord">
-					</i>
-				</a>
-				<a href="#" class="w-50 link color-main mx-20 mb-20 mb-md-0" target="_blank">
-					<i class="fab fa-medium-m">
-					</i>
-				</a>
-			</div>
-		</div>
-	</section>
-	
-	<!-- Footer 3 -->
-	<footer class="pt-100 bg-light text-center text-lg-left footer_3">
-		<div class="container px-xl-0">
-			<div class="row">
-				<div class="col-xl-1">
-				</div>
-				<div class="mb-50 mb-lg-0 col-lg-4" data-aos="fade-down" data-aos-delay="0">
-					<div class="row">
-						<div class="col-12">
-							<a href="index.html" class="link logo color-main"><img class="h-60" src="i/R-Logo-CLR-BLK.svg" alt="Redd"></a>
-						</div>
-						<div class="mt-30 mb-35 col-xl-7 col-lg-9 color-heading text-adaptive description">
-							Bringing value back to humanity and social interaction.
-						</div>
-						<div class="col-12 socials">
-							<a href="#" class="f-18 link color-main mr-30">
-								<i class="fab fa-twitter">
-								</i>
-							</a>
-							<a href="#" class="f-18 link color-main mr-30">
-								<i class="fab fa-facebook-square">
-								</i>
-							</a>
-							<a href="#" class="f-18 link color-main mr-30">
-								<i class="fab fa-youtube">
-								</i>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-7 col-lg-8">
-					<div class="row no-gutters">
-						<div class="col-md-3 col-6 mb-50 mb-md-0" data-aos="fade-down" data-aos-delay="0">
-							<div class="mb-35 f-18 semibold title">
-								Products
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									ReddID
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									ReddMobile
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="reddcoin.html" class="link color-main">
-									ReddCoin
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									ReddNetwork
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									ReddWallet
-								</a>
-							</div>
-						</div>
-						<div class="col-md-3 col-6 mb-50 mb-md-0" data-aos="fade-down" data-aos-delay="250">
-							<div class="mb-35 f-18 semibold title">
-								Resources
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									Statistics
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									Exchanges
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									Partnerships
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									Explorer
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									Staking
-								</a>
-							</div>
-						</div>
-						<div class="col-md-3 col-6" data-aos="fade-down" data-aos-delay="250">
-							<div class="mb-35 f-18 semibold title">
-								Developers
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									Documentation
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									Github
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									Server Status
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									Binaries
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									Bootstrap Files
-								</a>
-							</div>
-						</div>
-						<div class="col-md-3 col-6" data-aos="fade-down" data-aos-delay="500">
-							<div class="mb-35 f-18 semibold title">
-								About
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									Project Redd
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									ReddMap
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									Funding
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									Blog
-								</a>
-							</div>
-							<div class="mb-10">
-								<a href="#" class="link color-main">
-									Contact
-								</a>
 							</div>
 						</div>
 					</div>
 				</div>
+				
 			</div>
-		</div>
-	</footer>
-		
+		</section>
+					
+		<!-- Call to action 17 -->
+		<section class="pt-105 pb-95 bg-light text-center call_to_action_17">
+			<div class="container px-xl-0">
+				<h2 class="mb-30 small" data-aos="fade-down" data-aos-delay="0">
+					Follow Us
+				</h2>
+				<div class="f-48 buttons" data-aos="fade-down" data-aos-delay="250">
+					<a href="#" class="w-50 link color-main mx-20 mb-20 mb-md-0" target="_blank">
+						<i class="fab fa-facebook-square">
+						</i>
+					</a>
+					<a href="#" class="w-50 link color-main mx-20 mb-20 mb-md-0" target="_blank">
+						<i class="fab fa-twitter">
+						</i>
+					</a>
+					<a href="#" class="w-50 link color-main mx-20 mb-20 mb-md-0" target="_blank">
+						<i class="fab fa-youtube">
+						</i>
+					</a>
+					<a href="#" class="w-50 link color-main mx-20 mb-20 mb-md-0" target="_blank">
+						<i class="fab fa-telegram-plane">
+						</i>
+					</a>
+					<a href="#" class="w-50 link color-main mx-20 mb-20 mb-md-0" target="_blank">
+						<i class="fab fa-reddit">
+						</i>
+					</a>
+					<a href="#" class="w-50 link color-main mx-20 mb-20 mb-md-0" target="_blank">
+						<i class="fab fa-discord">
+						</i>
+					</a>
+					<a href="#" class="w-50 link color-main mx-20 mb-20 mb-md-0" target="_blank">
+						<i class="fab fa-medium-m">
+						</i>
+					</a>
+				</div>
+			</div>
+		</section>
 	
-	<!-- Footer 2 -->
-	<footer class="bg-light text-center footer_2 pt-30">
-		<div class="container px-xl-0">
-			<div class="row justify-content-center">
-				<div class="mt-10 col-12" data-aos="fade-down" data-aos-delay="250">
-					<div class="color-heading text-adaptive">
-						Copyright ® 2021 Reddcoin Solutions Ltd. Also take a look at our <a href="#" class="link color-main">Terms of Use</a>, <a href="#" class="link color-main">Privacy Policy</a> and <a href="#" class="link color-main">Press Page</a>.
+		<!-- Footer 3 -->
+		<footer class="pt-100 bg-light text-center text-lg-left footer_3">
+			<div class="container px-xl-0">
+				<div class="row">
+					<div class="col-xl-1">
+					</div>
+					<div class="mb-50 mb-lg-0 col-lg-4" data-aos="fade-down" data-aos-delay="0">
+						<div class="row">
+							<div class="col-12">
+								<a href="index.html" class="link logo color-main"><img class="h-60" src="i/R-Logo-CLR-BLK.svg" alt="Redd"></a>
+							</div>
+							<div class="mt-30 mb-35 col-xl-7 col-lg-9 color-heading text-adaptive description">
+								Bringing value back to humanity and social interaction.
+							</div>
+							<div class="col-12 socials">
+								<a href="#" class="f-18 link color-main mr-30">
+									<i class="fab fa-twitter">
+									</i>
+								</a>
+								<a href="#" class="f-18 link color-main mr-30">
+									<i class="fab fa-facebook-square">
+									</i>
+								</a>
+								<a href="#" class="f-18 link color-main mr-30">
+									<i class="fab fa-youtube">
+									</i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-7 col-lg-8">
+						<div class="row no-gutters">
+							<div class="col-md-3 col-6 mb-50 mb-md-0" data-aos="fade-down" data-aos-delay="0">
+								<div class="mb-35 f-18 semibold title">
+									Products
+								</div>
+								<div class="mb-10">
+									<a href="reddbot.html" class="link color-main">
+										ReddBot
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="reddcoin.html" class="link color-main">
+										ReddCoin
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="reddnetwork.html" class="link color-main">
+										ReddNetwork
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="reddshare.html" class="link color-main">
+										ReddShare
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="reddwallet.html" class="link color-main">
+										ReddWallet
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-6 mb-50 mb-md-0" data-aos="fade-down" data-aos-delay="250">
+								<div class="mb-35 f-18 semibold title">
+									Resources
+								</div>
+								<div class="mb-10">
+									<a href="https://redd.help" class="link color-main">
+										Tech Support
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="https://wiki.reddcoin.com/Exchanges" class="link color-main">
+										Exchanges
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="https://live.reddcoin.com/" class="link color-main">
+										Explorer
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="https://www.stakingrewards.com/earn/reddcoin" class="link color-main">
+										Staking
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="https://redd.love/brand/" class="link color-main">
+										Brand Assets
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-6" data-aos="fade-down" data-aos-delay="250">
+								<div class="mb-35 f-18 semibold title">
+									Developers
+								</div>
+								<div class="mb-10">
+									<a href="developers.html" class="link color-main">
+										Documentation
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="https://github.com/reddcoin-project" class="link color-main">
+										Github
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="https://status.redd.love/" class="link color-main">
+										Server Status
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="https://download.reddcoin.com/bin/" class="link color-main">
+										Binaries
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="https://download.reddcoin.com/bin/" class="link color-main">
+										Bootstrap Files
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-6" data-aos="fade-down" data-aos-delay="500">
+								<div class="mb-35 f-18 semibold title">
+									About
+								</div>
+								<div class="mb-10">
+									<a href="about.html" class="link color-main">
+										Redd
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="https://redd.love/roadmap/" class="link color-main">
+										ReddMap
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="https://redd.love/funding/" class="link color-main">
+										Funding
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="https://medium.com/projectredd" class="link color-main">
+										Blog
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="contact.html" class="link color-main">
+										Contact
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
+		</footer>
+		<!-- Footer 2 -->
+		<footer class="bg-light text-center footer_2 pt-30">
+			<div class="container px-xl-0">
+				<div class="row justify-content-center">
+					<div class="mt-10 col-12" data-aos="fade-down" data-aos-delay="250">
+						<div class="color-heading text-adaptive">
+							Copyright ® 2021 Reddcoin Solutions Ltd. Also take a look at our <a href="terms.html" class="link color-main">Terms of Use</a>, <a href="privacy.html" class="link color-main">Privacy Policy</a> and <a href="https://redd.love/press/" class="link color-main">Press Page</a>.
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- forms alerts -->
+		<div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			Thanks for your message!
 		</div>
-	</footer>
-	
-	<!-- forms alerts -->
-	<div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
-		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		Thanks for your message!
-	</div>
-	<div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
-		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		Please, fill in required fields.
-	</div>
-	<div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
-		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		<div class="message">An error occurred while sending data :( Please, check if your hosting supports PHP and check how to set form data sending <a href="https://designmodo.com/startup/documentation/#form-handler" target="_blank" class="link color-transparent-white">here</a>.</div>
-	</div>
+		<div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			Please, fill in required fields.
+		</div>
+		<div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<div class="message">An error occurred while sending data :( Please, check if your hosting supports PHP and check how to set form data sending <a href="https://designmodo.com/startup/documentation/#form-handler" target="_blank" class="link color-transparent-white">here</a>.</div>
+		</div>
 
-	<!-- gReCaptcha popup (uncomment if you need a recaptcha integration) -->
-	<!--
-	<div class="bg-dark op-8 grecaptcha-overlay"></div>
-	<div class="bg-light radius10 w-350 h-120 px-20 pt-20 pb-20 grecaptcha-popup">
-		<div class="w-full h-full d-flex justify-content-center align-items-center">
-			<div id="g-recaptcha" data-sitekey="PUT_YOUR_SITE_KEY_HERE"></div>
+		<!-- gReCaptcha popup (uncomment if you need a recaptcha integration) -->
+		<!--
+		<div class="bg-dark op-8 grecaptcha-overlay"></div>
+		<div class="bg-light radius10 w-350 h-120 px-20 pt-20 pb-20 grecaptcha-popup">
+			<div class="w-full h-full d-flex justify-content-center align-items-center">
+				<div id="g-recaptcha" data-sitekey="PUT_YOUR_SITE_KEY_HERE"></div>
+			</div>
 		</div>
-	</div>
-	<script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
-	-->
-	<!-- Bootstrap 4.5.2 JS -->
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-	<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
-	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-	<!-- 
-		Google maps JS API 
-		Don't forget to replace the key "AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U" to your own! 
-		Learn how to get a key: https://help.designmodo.com/article/startup-google-maps-api/ 
-	-->
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
-	<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
-	<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-	<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
-	<script src="js/jquery.maskedinput.min.js"></script>
-	<!-- Startup JS (Custom js for all blocks) -->
-	<script src="js/script.js"></script>
+		<script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
+		-->
+		<!-- Bootstrap 4.5.2 JS -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+		<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+		<!-- 
+			Google maps JS API 
+			Don't forget to replace the key "AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U" to your own! 
+			Learn how to get a key: https://help.designmodo.com/article/startup-google-maps-api/ 
+		-->
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
+		<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
+		<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+		<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+		<script src="js/jquery.maskedinput.min.js"></script>
+		<!-- Startup JS (Custom js for all blocks) -->
+		<script src="js/script.js"></script>
 	</body>
 </html>
