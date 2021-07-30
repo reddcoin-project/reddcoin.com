@@ -485,15 +485,20 @@ b, strong {
 /* Smaller than 576px */
 @media (max-width: 575.98px) {
   h1, h2 {
-    font-size: 26px;
-    line-height: 36px;
+    font-size: 36px;
+    line-height: 45px;
   }
   h1.big, h2.big {
     font-size: 32px;
     line-height: 42px;
   }
   h1.small, h2.small {
-    font-size: 22px;
+    font-size: 30px;
+    line-height: 38px;
+  }
+  
+  h3 {
+    font-size: 26px;
     line-height: 32px;
   }
 
