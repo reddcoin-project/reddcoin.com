@@ -33,7 +33,7 @@
 		<!-- Navigation Mobile type 1 -->
 		<a href="index.html" class="link logo color-main"><img class="h-60 mt-15 ml-15" src="i/R-Logo-CLR-BLK.svg" alt="Redd"></a>
 		<a href="#" class="open_menu bg-light radius_full right"><i class="fas fa-bars lh-40"></i></a>	
-		<div class="navigation_mobile bg-dark type1">
+		<div class="navigation_mobile bg-dark type1" style="margin-left: auto; right: 0;">
 			<a href="#" class="close_menu color-white"><i class="fas fa-times"></i></a>
 			<div class="px-40 pt-60 pb-60 inner">
 				<div class="logo color-white mb-30"><a href="index.html"><img class="h-60" src="i/R-Logo-CLR-WHT.svg" alt="Redd"></a></div>
@@ -78,7 +78,7 @@
 		</div>
 	
 		<!-- Header 5 -->
-		<header class="pt-40 pb-60 bg-light header_5">
+		<header class="pt-40 pb-60 pt-sm-0 pt-md-0 bg-light header_5 d-none d-lg-block">
 			<nav class="pt-10 pb-10 bg-light lh-40 text-center fixed-top navigation_4">
 				<div class="container px-xl-0">
 					<div class="row align-items-center">
@@ -117,13 +117,15 @@
 		<section class="pb-250 bg-light blog_16">
 			<div class="container px-xl-0">
 				<div class="row justify-content-between">
-					<a href="#" class="link img_link mb-50 mb-lg-0 col-12 col-lg-6 d-flex justify-content-center relative">
-						<img src="i/contact-pic1.jpg" srcset="i/contact-pic1_@2x.jpg 2x" alt="" class="radius10 w-full" data-aos="fade-down" data-aos-delay="0">
-						<img src="i/contact-pic2.jpg" srcset="i/contact-pic2_@2x.jpg 2x" alt="" class="col-lg-10 px-0 absolute radius10 img-block" data-aos="fade-down" data-aos-delay="250">
-					</a>
+					<span class="mb-50 mb-lg-0 col-12 col-lg-6 d-flex justify-content-center relative">
+						<img src="i/contact-pic1.jpg" srcset="i/contact-pic1_@2x.jpg 2x" alt="" class="radius10 w-full d-none d-lg-block" data-aos="fade-down" data-aos-delay="0">
+						<img src="i/contact-pic2.jpg" srcset="i/contact-pic2_@2x.jpg 2x" alt="" class="col-lg-10 px-0 absolute radius10 img-block d-none d-lg-block" data-aos="fade-down" data-aos-delay="250">
+						
+						<img src="i/contact-pic3.jpg" srcset="i/contact-pic3_@2x.jpg 2x" alt="" class="radius10 w-full mt-40 d-lg-none" data-aos="fade-down" data-aos-delay="250">
+					</span>
 					<div class="col-12 col-lg-6 col-xl-6 pl-xl-0 d-flex justify-content-xl-end relative">
 						<div class="col-xl-10 px-0">
-							<h3 class="mb-60 text-adaptive" data-aos="fade-down" data-aos-delay="500">
+							<h3 class="mb-30 text-adaptive" data-aos="fade-down" data-aos-delay="500">
 								Redd is a project run by volunteers and made up of passionate people who just want to make an impact on the world.
 							</h3>
 							<a href="docs/Redd-Book.pdf" class="mb-70 mr-10 btn border-gray color-main f-16 sm" data-aos="fade-down" data-aos-delay="500">Read the Redd Book</a>
