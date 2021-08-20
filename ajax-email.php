@@ -27,7 +27,7 @@
   $allowedHosts = [
     'https://reddcoin.com',
     'https://www.reddcoin.com',
-    'https://staging.reddcoin.com',
+    'https://dev.reddcoin.com',
     'http://localhost'
   ];
 
