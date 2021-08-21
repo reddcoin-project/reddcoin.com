@@ -9,7 +9,6 @@
   "scripts": {
     "start": "docker-compose up -d --build",
     "clear": "php scripts/clear.php",
-    "build": "php scripts/build.php",
-    "create-sitemap": "php scripts/create-sitemap.php"
+    "build": "php scripts/build.php"
   }
 }
