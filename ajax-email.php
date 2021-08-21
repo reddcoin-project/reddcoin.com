@@ -97,7 +97,7 @@
     $mail->Password = $_ENV['SMTP_Password'];
     
     $mail->CharSet = 'UTF-8';
-    $mail->SetFrom ('social@reddcoin.solutions', 'ReddLove Website');
+    $mail->SetFrom ('social@reddcoin.solutions', 'ReddCoin Website');
     $mail->addReplyTo($email, $name);
     $mail->Subject = $emailSubject;
     $mail->ContentType = 'text/plain';
