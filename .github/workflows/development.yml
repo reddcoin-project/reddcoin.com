@@ -1,0 +1,25 @@
+name: Deploy to DEVELOPMENT
+
+on:
+  push:
+    branches:
+    - dev
+
+jobs:
+
+  deployment:
+ 
+    runs-on: ubuntu-latest
+ 
+    steps:
+    - uses: actions/checkout@master
+      with:
+        ref: dev
+    - name: deploy to cloud
+      uses: appleboy/ssh-action@master
+      with:
+        host: 104.131.119.143
+        username: root
+        key: ${{ secrets.DEPLOY_KEY }}
+        command_timeout: 10m
+        script: git -C /root/www-data/dev.reddcoin.com pull && docker-compose up -d --build --force-recreate dev_reddcoin_com
