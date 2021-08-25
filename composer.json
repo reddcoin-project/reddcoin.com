@@ -1,0 +1,14 @@
+{
+  "name": "redd/reddcoin.com",
+  "version": "1.0.0",
+  "description": "Official ReddCoin Website",
+  "type": "project",
+  "require": {
+      "phpmailer/phpmailer": "^6.1"
+  },
+  "scripts": {
+    "start": "docker-compose up -d --build",
+    "clear": "php scripts/clear.php",
+    "build": "php scripts/build.php"
+  }
+}
