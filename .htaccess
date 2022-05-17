@@ -6,4 +6,4 @@
 </Files>
 <Directory "/var/www/html/vendor">
   Require all denied
-</Files>
+</Directory>
