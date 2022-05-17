@@ -221,13 +221,8 @@ function SF_scripts(){
 			if(required_fields_filled){
 				var posting = $.post(url, term);
 				posting
-				.done(function(data){
-					if(data=="ok"){
-						$(".alert-form-success").fadeIn(200).delay(5000).fadeOut(200);
-					}else{
-						$(".alert-form-error .message").html(data);
-						$(".alert-form-error").fadeIn(200).delay(10000).fadeOut(200);
-					}
+				.done(function(){
+          $(".alert-form-success").fadeIn(200).delay(5000).fadeOut(200);
 					hidegRecaptchaPopup();
 				})
 				.fail(function(){
