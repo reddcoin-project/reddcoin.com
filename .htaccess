@@ -4,7 +4,3 @@
 <Files "composer.lock">
   Require all denied
 </Files>
-<Directory /vendor>
-  Order Deny,Allow
-  Deny from All
-</Directory> 
