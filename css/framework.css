@@ -904,8 +904,8 @@ input[type=radio] + label:before {
   border-color: #4C5A6B;
 }
 .alert-success {
-  background: #da2525;
-  border-color: #da2525;
+  background: #d1e7dd;
+  border-color: #badbcc;
 }
 .alert-danger {
   background: #da2525;
